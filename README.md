@@ -7,4 +7,4 @@ This project was created to help users be more productive within their workday b
 ### Currently in development...
 
 2021 
-Adrian Salvador 
+(c) Adrian Salvador 

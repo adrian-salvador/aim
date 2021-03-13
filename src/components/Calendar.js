@@ -5,11 +5,14 @@ import dayGridPlugin from "@fullcalendar/daygrid";
 export default class DemoApp extends React.Component {
   render() {
     return (
-      <FullCalendar
-        defaultView='agendaWeek'
-        plugins={[dayGridPlugin]}
-        eventContent={renderEventContent}
-      />
+
+      <div style={{width: '90%'}}>
+          <FullCalendar
+            defaultView='agendaWeek'
+            plugins={[dayGridPlugin]}
+            eventContent={renderEventContent}
+         />
+      </div>
     );
   }
 }

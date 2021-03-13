@@ -9,9 +9,9 @@ function NavigationBar() {
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
             <Nav className="mr-auto">
-                <Nav.Link href="#to-do">To-Do</Nav.Link>
-                <Nav.Link href="#pomodoro-timer">Pomodoro Timer</Nav.Link>     
-                <Nav.Link href="#calendar">Calendar</Nav.Link>            
+                <Nav.Link href="/to-do">To-Do</Nav.Link>
+                <Nav.Link href="/pomodoro-timer">Pomodoro Timer</Nav.Link>     
+                <Nav.Link href="/calendar">Calendar</Nav.Link>            
             </Nav>
         </Navbar.Collapse>
     </Navbar>
